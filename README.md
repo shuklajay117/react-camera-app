@@ -1,4 +1,8 @@
-#Computicket Travel ReactJS
+#ReactJS Demo application
+
+To Find GCD of given more than 2 numbers.
+To Find Nth Prime Number
+Access Camera and allow user to capture image
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
