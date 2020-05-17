@@ -1,0 +1,51 @@
+{
+  "name": "task-reactjs",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "cross-env": "^7.0.2",
+    "hookrouter": "^1.2.3",
+    "node-sass": "^4.14.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "react-redux-toastr": "^7.6.4",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "recompose": "^0.30.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-react": "^0.88.2"
+  },
+  "scripts": {
+    "start": "cross-env REACT_APP_STAGE=dev craco start",
+    "build": "REACT_APP_STAGE=dev craco build",
+    "build:test": "REACT_APP_STAGE=test craco build",
+    "build:prod": "REACT_APP_STAGE=prod craco build",
+    "test": "craco test",
+    "eject": "craco eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^5.6.4",
+    "@semantic-ui-react/craco-less": "^1.2.1",
+    "semantic-ui-less": "^2.4.1"
+  }
+}

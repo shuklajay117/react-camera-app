@@ -1,0 +1,13 @@
+.capture-wrapper {
+	.video-capture {
+			width: 100%;
+
+			video {
+				margin-top: 15px;
+			}
+	}
+  
+  .error {
+    color: red;
+  }
+}
